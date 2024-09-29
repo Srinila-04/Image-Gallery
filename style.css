@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+.box{
+    width: 990px;
+    height: 600px;
+    background-color: #F6B2C6;
+    border: solid black 3px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    flex-direction: column;
+}
+
+.box__name{
+    font-size: 20px;
+    margin-top: 20px 0;
+    font-size: 25px;
+}
+
+.box__line{
+    width: 380px;
+    height: 3px;
+    background-color:black;
+    margin-top: 5px;
+    margin: 5px auto 0;  
+}
+
+.Images__container{
+    width: 100%;
+    height: auto;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    margin-top: 15px;
+}
+
+.image__container1 img,.image__container2 img{
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border: solid black 2px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+   
+}   
